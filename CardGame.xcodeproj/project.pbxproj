@@ -17,6 +17,7 @@
 		1C0E3F5E267750E500271DA0 /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E3F5D267750E500271DA0 /* CardGameTests.m */; };
 		1C0E3F69267750E500271DA0 /* CardGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E3F68267750E500271DA0 /* CardGameUITests.m */; };
 		1C0E3F79267751CB00271DA0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E3F78267751CB00271DA0 /* Card.m */; };
+		1C7FEFE2267771CE00391E42 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7FEFE1267771CE00391E42 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		1C0E3F6A267750E500271DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0E3F77267751AC00271DA0 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		1C0E3F78267751CB00271DA0 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		1C7FEFE0267771AA00391E42 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		1C7FEFE1267771CE00391E42 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +115,11 @@
 				1C0E3F45267750DB00271DA0 /* ViewController.m */,
 				1C0E3F47267750DB00271DA0 /* Main.storyboard */,
 				1C0E3F4D267750E400271DA0 /* Assets.xcassets */,
+				1C7FEFE0267771AA00391E42 /* Deck.h */,
+				1C7FEFE1267771CE00391E42 /* Deck.m */,
 				1C0E3F77267751AC00271DA0 /* Card.h */,
-				1C0E3F4F267750E400271DA0 /* LaunchScreen.storyboard */,
 				1C0E3F78267751CB00271DA0 /* Card.m */,
+				1C0E3F4F267750E400271DA0 /* LaunchScreen.storyboard */,
 				1C0E3F52267750E400271DA0 /* Info.plist */,
 				1C0E3F53267750E400271DA0 /* main.m */,
 				1C0E3F4A267750DB00271DA0 /* CardGame.xcdatamodeld */,
@@ -274,6 +279,7 @@
 				1C0E3F4C267750DB00271DA0 /* CardGame.xcdatamodeld in Sources */,
 				1C0E3F46267750DB00271DA0 /* ViewController.m in Sources */,
 				1C0E3F54267750E400271DA0 /* main.m in Sources */,
+				1C7FEFE2267771CE00391E42 /* Deck.m in Sources */,
 				1C0E3F43267750DB00271DA0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,7 @@
 @interface Card()
 @end
 
-@implementation Card : NSObject
+@implementation Card
 	
 -(int)match:(NSArray *)othercards
 {
