@@ -17,7 +17,7 @@
 	
 -(int)match:(NSArray *)othercards
 {
-    int score = 0;
+    int score = 3;
     
     for (Card *card in othercards) {
         if ([card.contents isEqualToString:self.contents]) {
