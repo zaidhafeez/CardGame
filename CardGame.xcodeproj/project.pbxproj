@@ -17,6 +17,8 @@
 		1C0E3F5E267750E500271DA0 /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E3F5D267750E500271DA0 /* CardGameTests.m */; };
 		1C0E3F69267750E500271DA0 /* CardGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E3F68267750E500271DA0 /* CardGameUITests.m */; };
 		1C0E3F79267751CB00271DA0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E3F78267751CB00271DA0 /* Card.m */; };
+		1C71CA4E26B13B5B00A1E4BC /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C71CA4C26B13B5B00A1E4BC /* HelloWorldViewController.m */; };
+		1C71CA4F26B13B5B00A1E4BC /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C71CA4D26B13B5B00A1E4BC /* HelloWorldViewController.xib */; };
 		1C7FEFE2267771CE00391E42 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7FEFE1267771CE00391E42 /* Deck.m */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		1C0E3F3E267750DB00271DA0 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C0E3F41267750DB00271DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C0E3F42267750DB00271DA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1C0E3F44267750DB00271DA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1C0E3F45267750DB00271DA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -57,6 +58,10 @@
 		1C0E3F6A267750E500271DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0E3F77267751AC00271DA0 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		1C0E3F78267751CB00271DA0 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		1C71CA4726B132A500A1E4BC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C71CA4B26B13B5B00A1E4BC /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		1C71CA4C26B13B5B00A1E4BC /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		1C71CA4D26B13B5B00A1E4BC /* HelloWorldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 		1C7FEFE0267771AA00391E42 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		1C7FEFE1267771CE00391E42 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +114,10 @@
 		1C0E3F40267750DB00271DA0 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
-				1C0E3F41267750DB00271DA0 /* AppDelegate.h */,
+				1C71CA4B26B13B5B00A1E4BC /* HelloWorldViewController.h */,
+				1C71CA4C26B13B5B00A1E4BC /* HelloWorldViewController.m */,
+				1C71CA4D26B13B5B00A1E4BC /* HelloWorldViewController.xib */,
+				1C71CA4726B132A500A1E4BC /* AppDelegate.h */,
 				1C0E3F42267750DB00271DA0 /* AppDelegate.m */,
 				1C0E3F44267750DB00271DA0 /* ViewController.h */,
 				1C0E3F45267750DB00271DA0 /* ViewController.m */,
@@ -248,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C71CA4F26B13B5B00A1E4BC /* HelloWorldViewController.xib in Resources */,
 				1C0E3F51267750E400271DA0 /* LaunchScreen.storyboard in Resources */,
 				1C0E3F4E267750E400271DA0 /* Assets.xcassets in Resources */,
 				1C0E3F49267750DB00271DA0 /* Main.storyboard in Resources */,
@@ -276,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C0E3F79267751CB00271DA0 /* Card.m in Sources */,
+				1C71CA4E26B13B5B00A1E4BC /* HelloWorldViewController.m in Sources */,
 				1C0E3F4C267750DB00271DA0 /* CardGame.xcdatamodeld in Sources */,
 				1C0E3F46267750DB00271DA0 /* ViewController.m in Sources */,
 				1C0E3F54267750E400271DA0 /* main.m in Sources */,

@@ -33,8 +33,8 @@
     [self addCard:card atTop:NO];
 }
 
-- (Card *)drawRandomCard{
-    
-}
+//- (Card *)drawRandomCard{
+//
+//}
 
 @end
